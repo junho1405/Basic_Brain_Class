@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{19A683D3-A262-4A8E-B59E-3F472EBE2FAF}|Basic_Brain_Class\\Basic_Brain_Class.vcxproj|solutionrelative:Basic_Brain_Class\\Basic_Brain_Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8394EDD9-C0F3-4008-8BC8-1D7FB0117F73}|\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.vcxproj|C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8394EDD9-C0F3-4008-8BC8-1D7FB0117F73}|\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.vcxproj|solutionrelative:\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CD2E18F8-0DDB-4005-AB37-1E8EE1FE58E0}|\uC9C0\uD53C\uD2F0\\\uC9C0\uD53C\uD2F0.vcxproj|C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\\uC9C0\uD53C\uD2F0\\\uC9C0\uD53C\uD2F0.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CD2E18F8-0DDB-4005-AB37-1E8EE1FE58E0}|\uC9C0\uD53C\uD2F0\\\uC9C0\uD53C\uD2F0.vcxproj|solutionrelative:\uC9C0\uD53C\uD2F0\\\uC9C0\uD53C\uD2F0.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 446,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\uD14C\uC2A4\uD2B8\uC6A9.cpp",
+              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.cpp",
+              "RelativeDocumentMoniker": "\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.cpp",
+              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.cpp",
+              "RelativeToolTip": "\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-23T04:16:09.138Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +45,14 @@
               "RelativeDocumentMoniker": "Basic_Brain_Class\\Basic_Brain_Class.cpp",
               "ToolTip": "C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\Basic_Brain_Class\\Basic_Brain_Class.cpp",
               "RelativeToolTip": "Basic_Brain_Class\\Basic_Brain_Class.cpp",
-              "ViewState": "AgIAAL0BAAAAAAAAAAAgwCIBAAARAAAAAAAAAA==",
+              "ViewState": "AgIAANMCAAAAAAAAAAAAAN0CAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-20T06:02:58.109Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "\uC9C0\uD53C\uD2F0.cpp",
               "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\\uC9C0\uD53C\uD2F0\\\uC9C0\uD53C\uD2F0.cpp",
               "RelativeDocumentMoniker": "\uC9C0\uD53C\uD2F0\\\uC9C0\uD53C\uD2F0.cpp",

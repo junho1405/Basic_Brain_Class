@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Basic_Brain_Class", "Basic_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "지피티", "지피티\지피티.vcxproj", "{CD2E18F8-0DDB-4005-AB37-1E8EE1FE58E0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "테스트용", "테스트용\테스트용.vcxproj", "{8394EDD9-C0F3-4008-8BC8-1D7FB0117F73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{CD2E18F8-0DDB-4005-AB37-1E8EE1FE58E0}.Release|x64.Build.0 = Release|x64
 		{CD2E18F8-0DDB-4005-AB37-1E8EE1FE58E0}.Release|x86.ActiveCfg = Release|Win32
 		{CD2E18F8-0DDB-4005-AB37-1E8EE1FE58E0}.Release|x86.Build.0 = Release|Win32
+		{8394EDD9-C0F3-4008-8BC8-1D7FB0117F73}.Debug|x64.ActiveCfg = Debug|x64
+		{8394EDD9-C0F3-4008-8BC8-1D7FB0117F73}.Debug|x64.Build.0 = Debug|x64
+		{8394EDD9-C0F3-4008-8BC8-1D7FB0117F73}.Debug|x86.ActiveCfg = Debug|Win32
+		{8394EDD9-C0F3-4008-8BC8-1D7FB0117F73}.Debug|x86.Build.0 = Debug|Win32
+		{8394EDD9-C0F3-4008-8BC8-1D7FB0117F73}.Release|x64.ActiveCfg = Release|x64
+		{8394EDD9-C0F3-4008-8BC8-1D7FB0117F73}.Release|x64.Build.0 = Release|x64
+		{8394EDD9-C0F3-4008-8BC8-1D7FB0117F73}.Release|x86.ActiveCfg = Release|Win32
+		{8394EDD9-C0F3-4008-8BC8-1D7FB0117F73}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

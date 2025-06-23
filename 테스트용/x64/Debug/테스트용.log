@@ -1,0 +1,11 @@
+﻿  테스트용.cpp
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(59,25): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(59,25): warning C4244:         with
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(59,25): warning C4244:         [
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(59,25): warning C4244:             _Rep=__int64
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(59,25): warning C4244:         ]
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(113,21): warning C4566: 유니버설 문자 이름 '\u23F0'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(119,21): warning C4566: 유니버설 문자 이름 '\u23F1'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(119,21): warning C4566: 유니버설 문자 이름 '\uFE0F'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(130,21): warning C4566: 유니버설 문자 이름 '\u274C'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+  테스트용.vcxproj -> C:\Users\OFFICE\Desktop\Basic_Brain_Class\x64\Debug\테스트용.exe
