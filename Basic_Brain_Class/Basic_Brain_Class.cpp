@@ -27,86 +27,104 @@ class Plus_Quiz
 	int quiz_count = 1;
 
 public:
+	int answer;
 	void easy()
 	{
 		cout << "easy모드" << endl;
-		int score = 0;
 		while (quiz_count < 10)
 		{
 			system("cls");
 			int x = rand() % 9 + 1;
 			int y = rand() % 9 + 1;
-			int answer;
 			cout << x << "+" << y << endl;
 			cin >> answer;
 			if (x + y == answer)
 			{
 				cout << "정답입니다." << endl;
+				cout << "아무키나 입력해주세요." << endl;
 				score++;
 				quiz_count++;
+				_getch();
+
 			}
 			else
 			{
+				system("cls");
 				cout << "오답입니다." << endl;
+				cout << "정답 :" << x + y << endl;
+				cout << "아무키나 입력해주세요." << endl;
 				quiz_count++;
+				_getch();
 			}
 		}
+		system("cls");
 		cout << "총점수 : " << score << endl;
-		cout << "총문제수 : " << quiz_count << endl;
+		cout << "아무키나 입력해주세요." << endl;
+		_getch();
 	}
 	void nomal()
 	{
 		cout << "nomal모드" << endl;
-		int score = 0;
 		while (quiz_count < 10)
 		{
 			system("cls");
 			int x = rand() % 99 + 1;
 			int y = rand() % 99 + 1;
-			int answer;
 			cout << x << "+" << y << endl;
 			cin >> answer;
 			if (x + y == answer)
 			{
+				system("cls");
 				cout << "정답입니다." << endl;
+				cout << "아무키나 입력해주세요." << endl;
 				score++;
 				quiz_count++;
+				_getch();
 			}
 			else
 			{
+				system("cls");
 				cout << "오답입니다." << endl;
+				cout << "정답 :"<< x+y << endl;
+				cout << "아무키나 입력해주세요." << endl;
 				quiz_count++;
+				_getch();
 			}
 		}
+		system("cls");
 		cout << "총점수 : " << score << endl;
-		cout << "총문제수 : " << quiz_count << endl;
+		_getch();
 	}
 	void hard()
 	{
 		cout << "hard모드" << endl;
-		int score = 0;
 		while (quiz_count < 10)
 		{
 			system("cls");
 			int x = rand() % 999 + 1;
 			int y = rand() % 999 + 1;
-			int answer;
 			cout << x << "+" << y << endl;
 			cin >> answer;
 			if (x + y == answer)
 			{
 				cout << "정답입니다." << endl;
+				cout << "아무키나 입력해주세요." << endl;
+				_getch();
 				score++;
 				quiz_count++;
 			}
 			else
 			{
 				cout << "오답입니다." << endl;
+				cout << "정답 : " << x + y << endl;
+				cout << "아무키나 입력해주세요." << endl;
+				_getch();
 				quiz_count++;
 			}
 		}
 		cout << "총점수 : " << score << endl;
-		cout << "총문제수 : " << quiz_count << endl;
+		cout << "아무키나 입력해주세요." << endl;
+		_getch();
 	}
 
 };
@@ -117,87 +135,116 @@ class Minus_Quiz
 	int score = 0;
 	int quiz_count = 1;
 
+
 public:
+	int x;
+	int y;
+	int answer;
+	
+
 	void easy()
 	{
 		cout << "easy모드" << endl;
-		int score = 0;
 		while (quiz_count < 10)
 		{
 			system("cls");
-			int x = rand() % 9 + 1;
-			int y = rand() % 9 + 1;
-			int answer;
+			do {
+				x = rand() % 9 + 1;
+				y = rand() % 9 + 1;
+			} while (x < y);
 			cout << x << "-" << y << endl;
 			cin >> answer;
 			if (x - y == answer)
 			{
 				cout << "정답입니다." << endl;
+				cout << "아무키나 입력해주세요." << endl;
+				_getch();
 				score++;
 				quiz_count++;
 			}
 			else
 			{
+				system("cls");
 				cout << "오답입니다." << endl;
+				cout << "정답 :" << x - y << endl;
+				cout << "아무키나 입력해주세요." << endl;
 				quiz_count++;
+				_getch();
 			}
 		}
+		system("cls");
 		cout << "총점수 : " << score << endl;
-		cout << "총문제수 : " << quiz_count << endl;
+		cout << "아무키나 입력해주세요." << endl;
+		_getch();
 	}
 	void nomal()
 	{
 		cout << "nomal모드" << endl;
-		int score = 0;
 		while (quiz_count < 10)
 		{
 			system("cls");
-			int x = rand() % 99 + 1;
-			int y = rand() % 99 + 1;
-			int answer;
+			do {
+				x = rand() % 9 + 1;
+				y = rand() % 9 + 1;
+			} while (x < y);
+
 			cout << x << "-" << y << endl;
 			cin >> answer;
+			
 			if (x - y == answer)
 			{
 				cout << "정답입니다." << endl;
+				cout << "아무키나 입력해주세요." << endl;
+				_getch();
 				score++;
 				quiz_count++;
 			}
 			else
 			{
 				cout << "오답입니다." << endl;
+				cout << "정답 : " << x - y << endl;
+				cout << "아무키나 입력해주세요." << endl;
+				_getch();
 				quiz_count++;
 			}
 		}
 		cout << "총점수 : " << score << endl;
-		cout << "총문제수 : " << quiz_count << endl;
+		cout << "아무키나 입력해주세요." << endl;
+		_getch();
 	}
 	void hard()
 	{
 		cout << "hard모드" << endl;
-		int score = 0;
 		while (quiz_count < 10)
 		{
 			system("cls");
-			int x = rand() % 999 + 1;
-			int y = rand() % 999 + 1;
-			int answer;
+			do {
+				x = rand() % 9 + 1;
+				y = rand() % 9 + 1;
+			} while (x < y);
+
 			cout << x << "-" << y << endl;
 			cin >> answer;
 			if (x - y == answer)
 			{
 				cout << "정답입니다." << endl;
+				cout << "아무키나 입력해주세요." << endl;
+				_getch();
 				score++;
 				quiz_count++;
 			}
 			else
 			{
 				cout << "오답입니다." << endl;
+				cout << "아무키나 입력해주세요." << endl;
+				_getch();
 				quiz_count++;
 			}
 		}
+		system("cls");
 		cout << "총점수 : " << score << endl;
-		cout << "총문제수 : " << quiz_count << endl;
+		cout << "아무키나 입력해주세요." << endl;
+		_getch();
 	}
 
 };
@@ -332,7 +379,7 @@ public:
 		{
 			system("cls");
 			cout << "종목을 선택해주세요" << endl;
-			cout << "덧셈[1] 뺄셈[2] 곱셈[3] 뒤로가기[0]" << endl;
+			cout << "덧셈[1] 뺄셈[2] 곱셈[3] 규칙[9] 뒤로가기[0]" << endl;
 			int MathChoice;
 			cin >> MathChoice;
 
@@ -364,6 +411,20 @@ public:
 						Plus_Quiz Select_PQ;
 						Select_PQ.hard();
 					}
+					if (Level == 9)
+					{
+						
+						system("cls");
+						cout << "덧셈 게임" << endl;
+						cout << "게임을 시작하면 화면에 간단한 덧셈 문제가 나옵니다." << endl;
+						cout << "그 값을 입력하면 되고 총 10문제가 준비되어 있으며" << endl;
+						cout << "난이도 별로 최대 자릿수가 달라집니다." << endl;
+						cout << "쉬움- 최대 1자릿수 \n 보통- 최대 2자릿수 \n어려움- 최대 3자릿수" << endl;
+						cout << "아무키나 눌러주세요." << endl;
+						_getch();
+						break;
+						
+					}
 					
 					else
 					{
@@ -378,7 +439,7 @@ public:
 				{
 					system("cls");
 					cout << "난이도를 선택해주세요." << endl;
-					cout << "쉬움[1] 보통[2] 어려움[3] 뒤로가기[0]" << endl;
+					cout << "쉬움[1] 보통[2] 어려움[3] 규칙[9] 뒤로가기[0]" << endl;
 					int Level;
 					cin >> Level;
 					MiniGame;
@@ -397,6 +458,18 @@ public:
 					{
 						Minus_Quiz Select_MQ;
 						Select_MQ.hard();
+					}if (Level == 9)
+					{
+						system("cls");
+						cout << "뺄셈 게임" << endl;
+						cout << "게임을 시작하면 화면에 간단한 빼기 문제가 나옵니다." << endl;
+						cout << "그 값을 입력하면 되고 총 10문제가 준비되어 있으며" << endl;
+						cout << "난이도 별로 최대 자릿수가 달라집니다." << endl;
+						cout << "쉬움- 최대 1자릿수 \n 보통- 최대 2자릿수 \n어려움- 최대 3자릿수" << endl;
+						cout << "아무키나 눌러주세요." << endl;
+						_getch();
+						break;
+
 					}
 					else
 					{
@@ -429,6 +502,10 @@ public:
 					{
 						MultyPly_Quiz Select_MQ;
 						Select_MQ.hard();
+					}if (Level == 9)
+					{
+						//곱셈 룰설명
+						cout << "" << endl;
 					}
 					else
 					{
@@ -669,6 +746,86 @@ class ArrowGame
 {
 	int score = 0;
 public:
+	char GetArrowKey()
+	{
+		int key = _getch();
+		if (key == 224)
+		{
+			key = _getch();
+			switch (key)
+			{
+			case 72: return 'U';
+			case 80: return 'D';
+			case 75: return 'L';
+			case 77: return 'R';
+
+			}
+		}
+	}
+	char ArrowSetting()
+	{
+		int RandomArrow = rand() % 4;
+		switch (RandomArrow) {
+		case 0: return 'U';
+		case 1: return 'D';
+		case 2: return 'L';
+		case 3: return 'R';
+		}
+	}
+
+char RandomArrow() {
+    int r = rand() % 4;
+    switch (r) {
+    case 0: return 'U';
+    case 1: return 'D';
+    case 2: return 'L';
+    case 3: return 'R';
+    }
+    return 'U';
+}
+
+	void printArrow(char dir) {
+		switch (dir) {
+		case 'U': cout << "↑ "; break;
+		case 'D': cout << "↓ "; break;
+		case 'L': cout << "← "; break;
+		case 'R': cout << "→ "; break;
+		}
+	}
+	char TimeAttack
+	(int TimeOut, steady_clock::time_point GameStart, int GameDuration, const deque<char>& arrow)
+	{
+		auto InputStart = steady_clock::now();
+		int lastShownSecond = -1;	
+		while (true)
+		{
+			auto now = steady_clock::now();//지금 시간을 저장 플레이타임을 위한것
+			int NowGameTime = duration_cast<seconds>(now - GameStart).count();//플레이시간을 구한다.
+			int LeftTime = GameDuration - NowGameTime;//전체시간 - 플레이타임
+
+			if (LeftTime <= 0) return 'G';
+			//입력안하면 게임오버 코드
+			auto NowGameInput = duration_cast<milliseconds>(now - InputStart).count();
+			//실시간 입력카운트 = 밀리초 단위로 계산한 최근 입력한 시간 - 지금의 시간
+			//즉 입력한 시간이 0이되고 거기서 경가한시간을 뺀다.
+			if (NowGameInput >= lastShownSecond) return 'T';
+			//만약 경과시간이 제한된 시간 초과서 T로 이동
+
+			//실시간 화면 초기화
+			if (LeftTime != lastShownSecond)
+			{
+				system("els");
+				cout << "화살표게임 가장 왼쪽의 화살표에 맞는 방향키를 눌러주세요." << endl;
+				cout << "남은시간: " << LeftTime << endl;
+				
+				for (char dir : arrow)
+				{
+					printArrow(dir);
+				}
+			}
+
+		}
+	}
 	void easy()
 	{
 
@@ -679,6 +836,25 @@ public:
 	}
 	void hard()
 	{
+
+	}
+	void rule()
+	{
+		while (true)
+		{
+			system("cls");
+		cout << "화살표게임" << endl;
+		cout << "화면에 → ← ↑ ↓ 중 무작위의 화살표가 출력됩니다." << endl;
+		cout << "그에 알맞은 방향키를 누르면 성공" << endl;
+		cout << "다른 방향키를 누르면 실패" << endl;
+		cout << "총 30초의 시간이 주어지며, 난이도 별로 입력제한 시간이 있습니다." << endl;
+		cout << "제한된 시간동안 방향키를 입력하지 못하면 실패로 간주합니다." << endl;
+		cout << "쉬움- 5초 \n보통- 3초 \n 어려움- 2초" << endl;
+		cout << "아무키나 입력하시면 이전 화면으로 돌아갑니다." << endl;
+		_getch();
+		break;
+		}
+
 
 	}
 };
@@ -695,8 +871,9 @@ public:
 		while (true)
 		{
 			system("cls");
+			cout << "반응속도 테스트" << endl;
 			cout << "난이도를 선택해 주세요." << endl;
-			cout << "쉬움 [1] 보통[2] 어려움[3] 뒤로가기[0]" << endl;
+			cout << "쉬움 [1] 보통[2] 어려움[3] 규칙[9] 뒤로가기[0]" << endl;
 			int Level;
 			cin >> Level;
 
@@ -712,6 +889,9 @@ public:
 			if (Level == 3)
 			{
 				SelectArrow.hard();
+			}if (Level == 9)
+			{
+				SelectArrow.rule();
 			}
 			else
 			{
@@ -744,6 +924,10 @@ public:
 			{
 				QuizMemory SelectMemory;
 				SelectMemory.Memory();
+			} if (SelectGame == 3)
+			{
+				ArrowSelect SelectArrow;
+				SelectArrow.Arrow();
 			}
 
 

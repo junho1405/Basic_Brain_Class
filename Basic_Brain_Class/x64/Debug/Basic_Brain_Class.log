@@ -1,11 +1,16 @@
 ﻿  Basic_Brain_Class.cpp
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(293,18): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(293,18): warning C4244:         with
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(293,18): warning C4244:         [
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(293,18): warning C4244:             _Rep=__int64
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(293,18): warning C4244:         ]
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(349,6): warning C4091: '': 변수를 선언하지 않으면 'MiniGame' 왼쪽은 무시됩니다.
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(383,6): warning C4091: '': 변수를 선언하지 않으면 'MiniGame' 왼쪽은 무시됩니다.
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(415,6): warning C4091: '': 변수를 선언하지 않으면 'MiniGame' 왼쪽은 무시됩니다.
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(759,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(341,18): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(341,18): warning C4244:         with
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(341,18): warning C4244:         [
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(341,18): warning C4244:             _Rep=__int64
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(341,18): warning C4244:         ]
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(397,6): warning C4091: '': 변수를 선언하지 않으면 'MiniGame' 왼쪽은 무시됩니다.
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(445,6): warning C4091: '': 변수를 선언하지 않으면 'MiniGame' 왼쪽은 무시됩니다.
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(489,6): warning C4091: '': 변수를 선언하지 않으면 'MiniGame' 왼쪽은 무시됩니다.
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(803,20): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(803,20): warning C4244:         with
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(803,20): warning C4244:         [
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(803,20): warning C4244:             _Rep=__int64
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(803,20): warning C4244:         ]
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(927,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Basic_Brain_Class.vcxproj -> C:\Users\OFFICE\Desktop\Basic_Brain_Class\x64\Debug\Basic_Brain_Class.exe
