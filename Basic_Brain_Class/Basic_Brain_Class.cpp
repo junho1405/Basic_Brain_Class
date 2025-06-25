@@ -256,20 +256,16 @@ class MultyPly_Quiz
 	int quiz_count = 1;
 
 public:
+	
+
 	void easy()
 	{
 		system("cls");
 		cout << "easy모드" << endl;
 		int score = 0;
-		const int TimeLimit = 60;
-		auto StartTimeAttack = steady_clock::now();
 
 		while (true)
 		{
-
-			auto now = steady_clock::now();
-			auto elapsed = duration_cast<seconds>(now - StartTimeAttack).count();
-			cout << "[남은 시간: " << TimeLimit - elapsed << "초]" << endl;
 
 			int x = rand() % 9 + 1;
 			int y = rand() % 9 + 1;
@@ -773,17 +769,6 @@ public:
 		}
 	}
 
-char RandomArrow() {
-    int r = rand() % 4;
-    switch (r) {
-    case 0: return 'U';
-    case 1: return 'D';
-    case 2: return 'L';
-    case 3: return 'R';
-    }
-    return 'U';
-}
-
 	void printArrow(char dir) {
 		switch (dir) {
 		case 'U': cout << "↑ "; break;
@@ -792,29 +777,33 @@ char RandomArrow() {
 		case 'R': cout << "→ "; break;
 		}
 	}
-	char TimeAttack
-	(int TimeOut, steady_clock::time_point GameStart, int GameDuration, const deque<char>& arrow)
+	char TimeAttack	(int TimeOut, steady_clock::time_point GameStart, int GameDuration, const deque<char>& arrow)
 	{
-		auto InputStart = steady_clock::now();
-		int lastShownSecond = -1;	
+		auto InputStart = steady_clock::now();//현재시간을 측정해 InputStart에 저장
+		int lastShownSecond = -1;	//경과시간 카운팅
+
 		while (true)
 		{
 			auto now = steady_clock::now();//지금 시간을 저장 플레이타임을 위한것
 			int NowGameTime = duration_cast<seconds>(now - GameStart).count();//플레이시간을 구한다.
 			int LeftTime = GameDuration - NowGameTime;//전체시간 - 플레이타임
 
-			if (LeftTime <= 0) return 'G';
+			if (LeftTime <= 0) return 'G';	
 			//입력안하면 게임오버 코드
 			auto NowGameInput = duration_cast<milliseconds>(now - InputStart).count();
 			//실시간 입력카운트 = 밀리초 단위로 계산한 최근 입력한 시간 - 지금의 시간
 			//즉 입력한 시간이 0이되고 거기서 경가한시간을 뺀다.
-			if (NowGameInput >= lastShownSecond) return 'T';
+			if (NowGameInput >= TimeOut) return 'T';
 			//만약 경과시간이 제한된 시간 초과서 T로 이동
 
+			if(_kbhit())
+			{
+				return GetArrowKey();
+			}
 			//실시간 화면 초기화
 			if (LeftTime != lastShownSecond)
 			{
-				system("els");
+				system("cls");
 				cout << "화살표게임 가장 왼쪽의 화살표에 맞는 방향키를 눌러주세요." << endl;
 				cout << "남은시간: " << LeftTime << endl;
 				
@@ -822,12 +811,63 @@ char RandomArrow() {
 				{
 					printArrow(dir);
 				}
-			}
-
+				cout << endl;
+				lastShownSecond = LeftTime;//플레이시간이 제한시간과 같다.
+				//0.5초마다 갱신하는 기능에 쓰일 예정
+			}	
 		}
 	}
 	void easy()
 	{
+		
+		deque<char> arrow;//deque말고 queue로 바꿔보기<<<독학으로 차이에 대해 좀더 알아보기
+		for (int i = 0; i < 10; i++)
+		{
+			arrow.push_back(ArrowSetting());
+		}
+		int Timelimit = 30;
+		auto gameStartTime = steady_clock::now();
+		while (true) 
+		{
+			char input = TimeAttack(5000, gameStartTime, Timelimit, arrow);
+			if (input == 'G')
+			{
+				system("cls");
+				cout << "GAME OVER" << endl;
+				cout << "제한시간을 초과했습니다." << endl;
+				cout << "최종점수 :" << score << endl;
+				Sleep(3000);
+				cout << "아무키나 입력해주세요." << endl;
+				_getch();
+				break;
+			}
+			else if (input == 'T')
+			{
+				system("cls");
+				cout << "게임이 종료되었습니다." << endl;
+				cout << "최종점수 :" << score << endl;
+				Sleep(3000);
+				cout << "아무키나 입력해주세요." << endl;
+				_getch();
+				break;
+			}
+			else if (input == arrow.front())
+			{
+				arrow.pop_front();
+				arrow.push_back(ArrowSetting());
+				score++;
+			}
+			else if(input != arrow.front())
+			{
+				system("cls");
+				cout << "잘못된 값을 입력했습니다." << endl;
+				cout << "최종점수 :" << score << endl;
+				Sleep(3000);
+				cout << "아무키나 입력해주세요." << endl;
+				_getch();
+				break;
+			}
+		}
 
 	}
 	void normal()
@@ -880,6 +920,7 @@ public:
 			if (Level == 0) break;
 			if (Level == 1)
 			{
+				
 				SelectArrow.easy();
 			} 
 			if (Level == 2)
@@ -929,10 +970,7 @@ public:
 				ArrowSelect SelectArrow;
 				SelectArrow.Arrow();
 			}
-
-
 		}
-
 	}
 };
 //게인시작
@@ -941,7 +979,7 @@ public:
 //말랑말랑두뇌교실
 int main()
 {
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 
 	ProgramStart ProgramStarter;
 	ProgramStarter.start();
