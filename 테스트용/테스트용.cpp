@@ -7,6 +7,7 @@
 #include <deque>
 #include <Windows.h>
 #include <Vector>
+#include<string>
 
 using namespace std;
 using namespace chrono;
@@ -40,6 +41,7 @@ public:
 			cin >> answer;
 			if (x + y == answer)
 			{
+				system("cls");
 				cout << "정답입니다." << endl;
 				cout << "아무키나 입력해주세요." << endl;
 				score++;
@@ -59,6 +61,7 @@ public:
 		}
 		system("cls");
 		cout << "총점수 : " << score << endl;
+		Sleep(3000);
 		cout << "아무키나 입력해주세요." << endl;
 		_getch();
 	}
@@ -93,6 +96,8 @@ public:
 		}
 		system("cls");
 		cout << "총점수 : " << score << endl;
+		Sleep(3000);
+		cout << "아무키나 입력해주세요." << endl;
 		_getch();
 	}
 	void hard()
@@ -107,6 +112,7 @@ public:
 			cin >> answer;
 			if (x + y == answer)
 			{
+				system("cls");
 				cout << "정답입니다." << endl;
 				cout << "아무키나 입력해주세요." << endl;
 				_getch();
@@ -115,6 +121,7 @@ public:
 			}
 			else
 			{
+				system("cls");
 				cout << "오답입니다." << endl;
 				cout << "정답 : " << x + y << endl;
 				cout << "아무키나 입력해주세요." << endl;
@@ -122,7 +129,9 @@ public:
 				quiz_count++;
 			}
 		}
+		system("cls");
 		cout << "총점수 : " << score << endl;
+		Sleep(3000);
 		cout << "아무키나 입력해주세요." << endl;
 		_getch();
 	}
@@ -174,6 +183,7 @@ public:
 		}
 		system("cls");
 		cout << "총점수 : " << score << endl;
+		Sleep(3000);
 		cout << "아무키나 입력해주세요." << endl;
 		_getch();
 	}
@@ -184,8 +194,8 @@ public:
 		{
 			system("cls");
 			do {
-				x = rand() % 9 + 1;
-				y = rand() % 9 + 1;
+				x = rand() % 99 + 1;
+				y = rand() % 99 + 1;
 			} while (x < y);
 
 			cout << x << "-" << y << endl;
@@ -193,6 +203,7 @@ public:
 
 			if (x - y == answer)
 			{
+				system("cld");
 				cout << "정답입니다." << endl;
 				cout << "아무키나 입력해주세요." << endl;
 				_getch();
@@ -201,6 +212,7 @@ public:
 			}
 			else
 			{
+				system("cld");
 				cout << "오답입니다." << endl;
 				cout << "정답 : " << x - y << endl;
 				cout << "아무키나 입력해주세요." << endl;
@@ -208,7 +220,9 @@ public:
 				quiz_count++;
 			}
 		}
+		system("cls");
 		cout << "총점수 : " << score << endl;
+		Sleep(3000);
 		cout << "아무키나 입력해주세요." << endl;
 		_getch();
 	}
@@ -219,14 +233,15 @@ public:
 		{
 			system("cls");
 			do {
-				x = rand() % 9 + 1;
-				y = rand() % 9 + 1;
+				x = rand() % 999 + 1;
+				y = rand() % 999 + 1;
 			} while (x < y);
 
 			cout << x << "-" << y << endl;
 			cin >> answer;
 			if (x - y == answer)
 			{
+				system("cld");
 				cout << "정답입니다." << endl;
 				cout << "아무키나 입력해주세요." << endl;
 				_getch();
@@ -235,6 +250,7 @@ public:
 			}
 			else
 			{
+				system("cld");
 				cout << "오답입니다." << endl;
 				cout << "아무키나 입력해주세요." << endl;
 				_getch();
@@ -243,6 +259,7 @@ public:
 		}
 		system("cls");
 		cout << "총점수 : " << score << endl;
+		Sleep(3000);
 		cout << "아무키나 입력해주세요." << endl;
 		_getch();
 	}
@@ -253,73 +270,101 @@ public:
 class MultyPly_Quiz
 {
 	int score = 0;
-	int quiz_count = 1;
+	int quiz_count = 0;
 
 public:
-	char TimeAttack(steady_clock::time_point GameStart, int GameDuration, int level)
-	{
-		auto InputStart = steady_clock::now();//현재시간을 측정해 InputStart에 저장
-		int lastShownSecond = -1;	//경과시간 카운팅
-		while (true)
-		{
-			auto now = steady_clock::now();//지금 시간을 저장 플레이타임을 위한것
-			int NowGameTime = duration_cast<seconds>(now - GameStart).count();//플레이시간을 구한다.
-			int LeftTime = GameDuration - NowGameTime;//전체시간 - 플레이타임
 
-			if (LeftTime <= 0) return 'G';
-			//입력안하면 게임오버 코드
-			auto NowGameInput = duration_cast<milliseconds>(now - InputStart).count();
-			//실시간 입력카운트 = 밀리초 단위로 계산한 최근 입력한 시간 - 지금의 시간
-			//즉 입력한 시간이 0이되고 거기서 경가한시간을 뺀다.
-			if (level == 1) {
-				if (LeftTime != lastShownSecond)
-				{
-					system("cls");
-					cout << "남은시간: " << LeftTime << endl;
-					lastShownSecond = LeftTime;//플레이시간이 제한시간과 같다.
-					//0.5초마다 갱신하는 기능에 쓰일 예정
-				}
-			}
-
-		}
-	}
 
 	void easy()
 	{
-		system("cls");
-		cout << "easy모드" << endl;
+		const int TimeLimit = 30;
+		auto GameStart = steady_clock::now();//프로그램 실행하고 나서부터 시간을 기록
+		string InputBuffer;// 한글자만 쳐도 자동으로 넘어가는 것을 방지하고 답이 2자릿수 이상일 때를 위해 넣는 버퍼
+		int LastShowSecond = -1;//매초마다 화면갱신을 위한 -1 / 시간은 -1이 될수 없기에 시간이 -1이 아니면 cls
+		//제한시간 // 실행시작시간 //글자 1글자씩 저장할 버퍼 // 화면초기화시킬 -1
+		int x = rand() % 9 + 1;
+		int y = rand() % 9 + 1;
+
+		
 		int score = 0;
-		const int TimeLimit = 5;
-		auto StartTimeAttack = steady_clock::now();
 
 		while (true)
 		{
-			const int GAME_DURATION = 60;
-			auto now = steady_clock::now();
-			const int level = 1;
-			auto elapsed = duration_cast<seconds>(now - StartTimeAttack).count();
-			char input = TimeAttack(StartTimeAttack, GAME_DURATION, level);
+			auto now = steady_clock::now();//문제가 출시가 시작되고 나서부터 시간을 기록
+			int Timer = duration_cast<seconds>(now - GameStart).count();//게임 경과시간
+			int LeftTime = TimeLimit - Timer; //앞으로 남은시간
 
-
-			int x = rand() % 9 + 1;
-			int y = rand() % 9 + 1;
-			int answer;
-			cout << x << "*" << y << endl;
-			cin >> answer;
-			if (x * y == answer)
+			
+			
+			if (LeftTime <= 0)//제한 시간종료
 			{
-				cout << "정답입니다." << endl;
-				score++;
-				quiz_count++;
+				system("cls");
+				cout << "게임이 종료되었습니다." << endl;
+				cout << "최종점수 : " << score;
+				Sleep(3000);
+				cout << "아무키나 입력해주세요." << endl;
+				_getch();
 			}
-			else
+			if(LeftTime != LastShowSecond)
 			{
-				cout << "오답입니다." << endl;
-				quiz_count++;
+				system("cls");
+				cout << "easy모드" << endl;
+				cout << "남은 시간 : " << LeftTime << endl;
+				cout << x << "*" << y << endl;
+				cout << "정답 : " << InputBuffer << endl;
+				LastShowSecond = LeftTime;
+			}
+			if (_kbhit()) // 정답입력 및 검토 하는 부분
+			{
+				char ch = _getch();
+
+				if (ch == '\r')
+				{
+					if (!InputBuffer.empty())
+					{
+						int Answer = stoi(InputBuffer);
+						if (Answer == x * y)
+						{
+							system("cls");
+							cout << "정답입니다." << endl;
+							score++;
+						}
+						else
+						{
+							cout << "오답입니다." << endl;
+						}
+						InputBuffer.clear();
+						cout << "아무키나 입력시 다음문제로 넘어갑니다." << endl;
+						_getch();
+						x = rand() % 9 + 1;
+						y = rand() % 9 + 1;
+						system("cls");
+						cout << "easy모드" << endl;
+						cout << "남은 시간 : " << LeftTime << endl;
+						cout << x << "*" << y << endl;
+						cout << "정답 : " << InputBuffer << endl;
+
+					}
+				}
+				else if (ch == '\b') //백스페이스 작동
+				{
+					if (!InputBuffer.empty())
+					{
+						InputBuffer.pop_back();
+					}
+				}
+				else if (isdigit(ch))//숫자인지 구분
+				{
+					InputBuffer += ch;
+					cout << ch;
+				}
 			}
 		}
+		system("cls");
 		cout << "총점수 : " << score << endl;
 		cout << "총문제수 : " << quiz_count << endl;
+		Sleep(3000);
+		cout << "아무키나 입력해주세요." << endl;
 	}
 	void nomal()
 	{
@@ -343,6 +388,7 @@ public:
 			cin >> answer;
 			if (x * y == answer)
 			{
+				system("cls");
 				cout << "정답입니다." << endl;
 				score++;
 				quiz_count++;
@@ -350,6 +396,7 @@ public:
 			else
 			{
 				cout << "오답입니다." << endl;
+				cout << "정답 : " << x - y << endl;
 				quiz_count++;
 			}
 		}
@@ -387,6 +434,7 @@ public:
 			else
 			{
 				cout << "오답입니다." << endl;
+				cout << "정답 : " << x - y << endl;
 				quiz_count++;
 			}
 		}

@@ -40,6 +40,7 @@ public:
 			cin >> answer;
 			if (x + y == answer)
 			{
+				system("cls");
 				cout << "정답입니다." << endl;
 				cout << "아무키나 입력해주세요." << endl;
 				score++;
@@ -59,6 +60,7 @@ public:
 		}
 		system("cls");
 		cout << "총점수 : " << score << endl;
+		Sleep(3000);
 		cout << "아무키나 입력해주세요." << endl;
 		_getch();
 	}
@@ -85,7 +87,7 @@ public:
 			{
 				system("cls");
 				cout << "오답입니다." << endl;
-				cout << "정답 :"<< x+y << endl;
+				cout << "정답 :" << x + y << endl;
 				cout << "아무키나 입력해주세요." << endl;
 				quiz_count++;
 				_getch();
@@ -93,6 +95,8 @@ public:
 		}
 		system("cls");
 		cout << "총점수 : " << score << endl;
+		Sleep(3000);
+		cout << "아무키나 입력해주세요." << endl;
 		_getch();
 	}
 	void hard()
@@ -107,6 +111,7 @@ public:
 			cin >> answer;
 			if (x + y == answer)
 			{
+				system("cls");
 				cout << "정답입니다." << endl;
 				cout << "아무키나 입력해주세요." << endl;
 				_getch();
@@ -115,6 +120,7 @@ public:
 			}
 			else
 			{
+				system("cls");
 				cout << "오답입니다." << endl;
 				cout << "정답 : " << x + y << endl;
 				cout << "아무키나 입력해주세요." << endl;
@@ -122,7 +128,9 @@ public:
 				quiz_count++;
 			}
 		}
+		system("cls");
 		cout << "총점수 : " << score << endl;
+		Sleep(3000);
 		cout << "아무키나 입력해주세요." << endl;
 		_getch();
 	}
@@ -174,6 +182,7 @@ public:
 		}
 		system("cls");
 		cout << "총점수 : " << score << endl;
+		Sleep(3000);
 		cout << "아무키나 입력해주세요." << endl;
 		_getch();
 	}
@@ -184,8 +193,8 @@ public:
 		{
 			system("cls");
 			do {
-				x = rand() % 9 + 1;
-				y = rand() % 9 + 1;
+				x = rand() % 99 + 1;
+				y = rand() % 99 + 1;
 			} while (x < y);
 
 			cout << x << "-" << y << endl;
@@ -193,6 +202,7 @@ public:
 			
 			if (x - y == answer)
 			{
+				system("cld");
 				cout << "정답입니다." << endl;
 				cout << "아무키나 입력해주세요." << endl;
 				_getch();
@@ -201,6 +211,7 @@ public:
 			}
 			else
 			{
+				system("cld");
 				cout << "오답입니다." << endl;
 				cout << "정답 : " << x - y << endl;
 				cout << "아무키나 입력해주세요." << endl;
@@ -208,7 +219,9 @@ public:
 				quiz_count++;
 			}
 		}
+		system("cls");
 		cout << "총점수 : " << score << endl;
+		Sleep(3000);
 		cout << "아무키나 입력해주세요." << endl;
 		_getch();
 	}
@@ -219,14 +232,15 @@ public:
 		{
 			system("cls");
 			do {
-				x = rand() % 9 + 1;
-				y = rand() % 9 + 1;
+				x = rand() % 999 + 1;
+				y = rand() % 999 + 1;
 			} while (x < y);
 
 			cout << x << "-" << y << endl;
 			cin >> answer;
 			if (x - y == answer)
 			{
+				system("cld");
 				cout << "정답입니다." << endl;
 				cout << "아무키나 입력해주세요." << endl;
 				_getch();
@@ -235,6 +249,7 @@ public:
 			}
 			else
 			{
+				system("cld");
 				cout << "오답입니다." << endl;
 				cout << "아무키나 입력해주세요." << endl;
 				_getch();
@@ -243,6 +258,7 @@ public:
 		}
 		system("cls");
 		cout << "총점수 : " << score << endl;
+		Sleep(3000);
 		cout << "아무키나 입력해주세요." << endl;
 		_getch();
 	}
@@ -274,18 +290,24 @@ public:
 			cin >> answer;
 			if (x * y == answer)
 			{
+				system("cls");
 				cout << "정답입니다." << endl;
 				score++;
 				quiz_count++;
 			}
 			else
 			{
+				system("cls");
 				cout << "오답입니다." << endl;
+				cout << "정답 : " << x - y << endl;
 				quiz_count++;
 			}
 		}
+		system("cls");
 		cout << "총점수 : " << score << endl;
 		cout << "총문제수 : " << quiz_count << endl;
+		Sleep(3000);
+		cout << "아무키나 입력해주세요." << endl;
 	}
 	void nomal()
 	{
@@ -309,6 +331,7 @@ public:
 			cin >> answer;
 			if (x * y == answer)
 			{
+				system("cls");
 				cout << "정답입니다." << endl;
 				score++;
 				quiz_count++;
@@ -316,6 +339,7 @@ public:
 			else
 			{
 				cout << "오답입니다." << endl;
+				cout << "정답 : " << x - y << endl;
 				quiz_count++;
 			}
 		}
@@ -353,6 +377,7 @@ public:
 			else
 			{
 				cout << "오답입니다." << endl;
+				cout << "정답 : " << x - y << endl;
 				quiz_count++;
 			}
 		}
@@ -754,7 +779,6 @@ public:
 			case 80: return 'D';
 			case 75: return 'L';
 			case 77: return 'R';
-
 			}
 		}
 	}
@@ -768,7 +792,6 @@ public:
 		case 3: return 'R';
 		}
 	}
-
 	void printArrow(char dir) {
 		switch (dir) {
 		case 'U': cout << "↑ "; break;

@@ -1,22 +1,22 @@
 ﻿  테스트용.cpp
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(266,20): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(266,20): warning C4244:         with
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(266,20): warning C4244:         [
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(266,20): warning C4244:             _Rep=__int64
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(266,20): warning C4244:         ]
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(371,18): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(371,18): warning C4244:         with
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(371,18): warning C4244:         [
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(371,18): warning C4244:             _Rep=__int64
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(371,18): warning C4244:         ]
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(427,6): warning C4091: '': 변수를 선언하지 않으면 'MiniGame' 왼쪽은 무시됩니다.
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(475,6): warning C4091: '': 변수를 선언하지 않으면 'MiniGame' 왼쪽은 무시됩니다.
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(519,6): warning C4091: '': 변수를 선언하지 않으면 'MiniGame' 왼쪽은 무시됩니다.
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(822,20): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(822,20): warning C4244:         with
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(822,20): warning C4244:         [
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(822,20): warning C4244:             _Rep=__int64
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(822,20): warning C4244:         ]
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(804,1): warning C4715: 'ArrowGame::ArrowSetting': 모든 제어 경로에서 값을 반환하지는 않습니다.
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(794,1): warning C4715: 'ArrowGame::GetArrowKey': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(294,14): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(294,14): warning C4244:         with
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(294,14): warning C4244:         [
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(294,14): warning C4244:             _Rep=__int64
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(294,14): warning C4244:         ]
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(419,18): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(419,18): warning C4244:         with
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(419,18): warning C4244:         [
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(419,18): warning C4244:             _Rep=__int64
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(419,18): warning C4244:         ]
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(476,6): warning C4091: '': 변수를 선언하지 않으면 'MiniGame' 왼쪽은 무시됩니다.
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(524,6): warning C4091: '': 변수를 선언하지 않으면 'MiniGame' 왼쪽은 무시됩니다.
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(568,6): warning C4091: '': 변수를 선언하지 않으면 'MiniGame' 왼쪽은 무시됩니다.
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(871,20): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(871,20): warning C4244:         with
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(871,20): warning C4244:         [
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(871,20): warning C4244:             _Rep=__int64
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(871,20): warning C4244:         ]
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(853,1): warning C4715: 'ArrowGame::ArrowSetting': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\OFFICE\Desktop\Basic_Brain_Class\테스트용\테스트용.cpp(843,1): warning C4715: 'ArrowGame::GetArrowKey': 모든 제어 경로에서 값을 반환하지는 않습니다.
   테스트용.vcxproj -> C:\Users\OFFICE\Desktop\Basic_Brain_Class\x64\Debug\테스트용.exe
