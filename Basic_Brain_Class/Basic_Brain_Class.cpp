@@ -120,6 +120,7 @@ public:
 		Sleep(3000);
 		FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 		cout << "아무키나 입력해주세요." << endl;
+		score = 0;
 		_getch();
 
 	}
@@ -210,6 +211,7 @@ public:
 		Sleep(3000);
 		FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 		cout << "아무키나 입력해주세요." << endl;
+		score = 0;
 		_getch();
 	}
 	void hard()
@@ -297,6 +299,7 @@ public:
 		Sleep(3000);
 		FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 		cout << "아무키나 입력해주세요." << endl;
+		score = 0;
 		_getch();
 	}
 
@@ -409,6 +412,7 @@ public:
 		Sleep(3000);
 		FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 		cout << "아무키나 입력해주세요." << endl;
+		score = 0;
 		_getch();
 	}
 	void nomal()
@@ -504,6 +508,7 @@ public:
 		Sleep(3000);
 		FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 		cout << "아무키나 입력해주세요." << endl;
+		score = 0;
 		_getch();
 	}
 	void hard()
@@ -599,6 +604,7 @@ public:
 		Sleep(3000);
 		FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 		cout << "아무키나 입력해주세요." << endl;
+		score = 0;
 		_getch();
 	}
 
@@ -702,6 +708,7 @@ public:
 		Sleep(3000);
 		FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 		cout << "아무키나 입력해주세요." << endl;
+		score = 0;
 		_getch();
 	}
 	void nomal()
@@ -785,6 +792,7 @@ public:
 		Sleep(3000);
 		FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 		cout << "아무키나 입력해주세요." << endl;
+		score = 0;
 		_getch();
 
 	}
@@ -869,6 +877,7 @@ public:
 		Sleep(3000);
 		FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 		cout << "아무키나 입력해주세요." << endl;
+		score = 0;
 		_getch();
 	}
 
@@ -1109,6 +1118,7 @@ public:
 				MemoryQuizLevel = 0;
 				FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 				cout << "아무키나 입력해주세요" << endl;
+				score = 0;
 				_getch();
 				break;
 			}
@@ -1168,6 +1178,7 @@ public:
 				MemoryQuizLevel = 0;
 				FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 				cout << "아무키나 입력해주세요" << endl;
+				score = 0;
 				_getch();
 				break;
 			}
@@ -1226,6 +1237,7 @@ public:
 				Sleep(3000);
 				FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 				cout << "아무키나 입력해주세요" << endl;
+				score = 0;
 				_getch();
 				break;
 			}
@@ -1381,6 +1393,7 @@ public:
 				Sleep(3000);
 				FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 				cout << "아무키나 입력해주세요." << endl;
+				score = 0;
 				_getch();
 				break;
 			}
@@ -1392,6 +1405,7 @@ public:
 				Sleep(3000);
 				FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 				cout << "아무키나 입력해주세요." << endl;
+				score = 0;
 				_getch();
 				break;
 			}
@@ -1409,6 +1423,7 @@ public:
 				Sleep(3000);
 				FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 				cout << "아무키나 입력해주세요." << endl;
+				score = 0;
 				_getch();
 				break;
 			}
@@ -1436,6 +1451,7 @@ public:
 				Sleep(3000);
 				FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 				cout << "아무키나 입력해주세요." << endl;
+				score = 0;
 				_getch();
 				break;
 			}
@@ -1447,6 +1463,7 @@ public:
 				Sleep(3000);
 				FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 				cout << "아무키나 입력해주세요." << endl;
+				score = 0;
 				_getch();
 				break;
 			}
@@ -1464,6 +1481,7 @@ public:
 				Sleep(3000);
 				FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));//슬립동안 키입력방지
 				cout << "아무키나 입력해주세요." << endl;
+				score = 0;
 				_getch();
 				break;
 			}
@@ -1490,6 +1508,7 @@ public:
 				Sleep(3000);
 				FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 				cout << "아무키나 입력해주세요." << endl;
+				score = 0;
 				_getch();
 				break;
 			}
@@ -1501,6 +1520,7 @@ public:
 				Sleep(3000);
 				FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 				cout << "아무키나 입력해주세요." << endl;
+				score = 0;
 				_getch();
 				break;
 			}
@@ -1518,6 +1538,7 @@ public:
 				Sleep(3000);
 				FlushConsoleInputBuffer(GetStdHandle(STD_INPUT_HANDLE));
 				cout << "아무키나 입력해주세요." << endl;
+				score = 0;
 				_getch();
 				break;
 			}

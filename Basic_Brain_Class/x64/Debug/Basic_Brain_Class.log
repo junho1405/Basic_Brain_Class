@@ -1,17 +1,57 @@
 ﻿  Basic_Brain_Class.cpp
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(361,18): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(361,18): warning C4244:         with
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(361,18): warning C4244:         [
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(361,18): warning C4244:             _Rep=__int64
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(361,18): warning C4244:         ]
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(418,6): warning C4091: '': 변수를 선언하지 않으면 'MiniGame' 왼쪽은 무시됩니다.
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(466,6): warning C4091: '': 변수를 선언하지 않으면 'MiniGame' 왼쪽은 무시됩니다.
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(510,6): warning C4091: '': 변수를 선언하지 않으면 'MiniGame' 왼쪽은 무시됩니다.
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(813,20): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(813,20): warning C4244:         with
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(813,20): warning C4244:         [
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(813,20): warning C4244:             _Rep=__int64
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(813,20): warning C4244:         ]
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(795,1): warning C4715: 'ArrowGame::ArrowSetting': 모든 제어 경로에서 값을 반환하지는 않습니다.
-C:\Users\OFFICE\Desktop\Basic_Brain_Class\Basic_Brain_Class\Basic_Brain_Class.cpp(785,1): warning C4715: 'ArrowGame::GetArrowKey': 모든 제어 경로에서 값을 반환하지는 않습니다.
-  Basic_Brain_Class.vcxproj -> C:\Users\OFFICE\Desktop\Basic_Brain_Class\x64\Debug\Basic_Brain_Class.exe
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(46,14): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(46,14): warning C4244:         with
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(46,14): warning C4244:         [
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(46,14): warning C4244:             _Rep=__int64
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(46,14): warning C4244:         ]
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(136,14): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(136,14): warning C4244:         with
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(136,14): warning C4244:         [
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(136,14): warning C4244:             _Rep=__int64
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(136,14): warning C4244:         ]
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(225,14): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(225,14): warning C4244:         with
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(225,14): warning C4244:         [
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(225,14): warning C4244:             _Rep=__int64
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(225,14): warning C4244:         ]
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(335,14): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(335,14): warning C4244:         with
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(335,14): warning C4244:         [
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(335,14): warning C4244:             _Rep=__int64
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(335,14): warning C4244:         ]
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(431,14): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(431,14): warning C4244:         with
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(431,14): warning C4244:         [
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(431,14): warning C4244:             _Rep=__int64
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(431,14): warning C4244:         ]
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(527,14): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(527,14): warning C4244:         with
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(527,14): warning C4244:         [
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(527,14): warning C4244:             _Rep=__int64
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(527,14): warning C4244:         ]
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(636,14): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(636,14): warning C4244:         with
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(636,14): warning C4244:         [
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(636,14): warning C4244:             _Rep=__int64
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(636,14): warning C4244:         ]
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(724,14): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(724,14): warning C4244:         with
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(724,14): warning C4244:         [
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(724,14): warning C4244:             _Rep=__int64
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(724,14): warning C4244:         ]
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(809,14): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(809,14): warning C4244:         with
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(809,14): warning C4244:         [
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(809,14): warning C4244:             _Rep=__int64
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(809,14): warning C4244:         ]
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(920,6): warning C4091: '': 변수를 선언하지 않으면 'MiniGame' 왼쪽은 무시됩니다.
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(973,6): warning C4091: '': 변수를 선언하지 않으면 'MiniGame' 왼쪽은 무시됩니다.
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(1017,6): warning C4091: '': 변수를 선언하지 않으면 'MiniGame' 왼쪽은 무시됩니다.
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(1342,20): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(1342,20): warning C4244:         with
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(1342,20): warning C4244:         [
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(1342,20): warning C4244:             _Rep=__int64
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(1342,20): warning C4244:         ]
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(1324,1): warning C4715: 'ArrowGame::ArrowSetting': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\Basic_Brain_Class\Basic_Brain_Class.cpp(1314,1): warning C4715: 'ArrowGame::GetArrowKey': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  Basic_Brain_Class.vcxproj -> C:\Users\junho\OneDrive\문서\Basic_Brain_Class-main\x64\Debug\Basic_Brain_Class.exe
