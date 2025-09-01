@@ -1,30 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\junho\\OneDrive\\\uBB38\uC11C\\Basic_Brain_Class-main\\",
+  "WorkspaceRootPath": "C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\",
   "Documents": [
     {
-<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{19A683D3-A262-4A8E-B59E-3F472EBE2FAF}|Basic_Brain_Class\\Basic_Brain_Class.vcxproj|C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\Basic_Brain_Class\\Basic_Brain_Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{19A683D3-A262-4A8E-B59E-3F472EBE2FAF}|Basic_Brain_Class\\Basic_Brain_Class.vcxproj|solutionrelative:Basic_Brain_Class\\Basic_Brain_Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9089AD97-558D-4E31-8457-19ADC2FF319F}|\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604.vcxproj|C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9089AD97-558D-4E31-8457-19ADC2FF319F}|\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604.vcxproj|solutionrelative:\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD2E18F8-0DDB-4005-AB37-1E8EE1FE58E0}|\uC9C0\uD53C\uD2F0\\\uC9C0\uD53C\uD2F0.vcxproj|C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\\uC9C0\uD53C\uD2F0\\\uC9C0\uD53C\uD2F0.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD2E18F8-0DDB-4005-AB37-1E8EE1FE58E0}|\uC9C0\uD53C\uD2F0\\\uC9C0\uD53C\uD2F0.vcxproj|solutionrelative:\uC9C0\uD53C\uD2F0\\\uC9C0\uD53C\uD2F0.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\string||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8394EDD9-C0F3-4008-8BC8-1D7FB0117F73}|\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.vcxproj|C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8394EDD9-C0F3-4008-8BC8-1D7FB0117F73}|\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.vcxproj|solutionrelative:\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9089AD97-558D-4E31-8457-19ADC2FF319F}|\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604.vcxproj|C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-=======
-      "AbsoluteMoniker": "D:0:0:{19A683D3-A262-4A8E-B59E-3F472EBE2FAF}|Basic_Brain_Class\\Basic_Brain_Class.vcxproj|C:\\Users\\junho\\OneDrive\\\uBB38\uC11C\\Basic_Brain_Class-main\\Basic_Brain_Class\\Basic_Brain_Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{19A683D3-A262-4A8E-B59E-3F472EBE2FAF}|Basic_Brain_Class\\Basic_Brain_Class.vcxproj|solutionrelative:Basic_Brain_Class\\Basic_Brain_Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8394EDD9-C0F3-4008-8BC8-1D7FB0117F73}|\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.vcxproj|C:\\Users\\junho\\OneDrive\\\uBB38\uC11C\\Basic_Brain_Class-main\\\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8394EDD9-C0F3-4008-8BC8-1D7FB0117F73}|\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.vcxproj|solutionrelative:\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9089AD97-558D-4E31-8457-19ADC2FF319F}|\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604.vcxproj|C:\\Users\\junho\\OneDrive\\\uBB38\uC11C\\Basic_Brain_Class-main\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
->>>>>>> a9c575a3b894b0246bb179992190d64c925f5dfa
-      "RelativeMoniker": "D:0:0:{9089AD97-558D-4E31-8457-19ADC2FF319F}|\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604.vcxproj|solutionrelative:\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,44 +29,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 446,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "\uC9C0\uD53C\uD2F0.cpp",
+              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\\uC9C0\uD53C\uD2F0\\\uC9C0\uD53C\uD2F0.cpp",
+              "RelativeDocumentMoniker": "\uC9C0\uD53C\uD2F0\\\uC9C0\uD53C\uD2F0.cpp",
+              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\\uC9C0\uD53C\uD2F0\\\uC9C0\uD53C\uD2F0.cpp",
+              "RelativeToolTip": "\uC9C0\uD53C\uD2F0\\\uC9C0\uD53C\uD2F0.cpp",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-01T05:18:31.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "string",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\string",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\string",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\string",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\string",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAswGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-01T04:31:01.454Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Basic_Brain_Class.cpp",
-              "DocumentMoniker": "C:\\Users\\junho\\OneDrive\\\uBB38\uC11C\\Basic_Brain_Class-main\\Basic_Brain_Class\\Basic_Brain_Class.cpp",
+              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\Basic_Brain_Class\\Basic_Brain_Class.cpp",
               "RelativeDocumentMoniker": "Basic_Brain_Class\\Basic_Brain_Class.cpp",
-              "ToolTip": "C:\\Users\\junho\\OneDrive\\\uBB38\uC11C\\Basic_Brain_Class-main\\Basic_Brain_Class\\Basic_Brain_Class.cpp",
+              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\Basic_Brain_Class\\Basic_Brain_Class.cpp",
               "RelativeToolTip": "Basic_Brain_Class\\Basic_Brain_Class.cpp",
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "ViewState": "AgIAAEoAAAAAAAAAAADwv1cAAAAZAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAACAAAAAAAAAA==",
->>>>>>> Stashed changes
-=======
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAACAAAAAAAAAA==",
->>>>>>> Stashed changes
-=======
-              "ViewState": "AgIAAEoAAAAAAAAAAADwv1UAAAAPAAAAAAAAAA==",
->>>>>>> a9c575a3b894b0246bb179992190d64c925f5dfa
+              "ViewState": "AgIAANIEAAAAAAAAAAAAAAYFAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-27T06:24:09.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "\uD14C\uC2A4\uD2B8\uC6A9.cpp",
-              "DocumentMoniker": "C:\\Users\\junho\\OneDrive\\\uBB38\uC11C\\Basic_Brain_Class-main\\\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.cpp",
+              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.cpp",
               "RelativeDocumentMoniker": "\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.cpp",
-<<<<<<< HEAD
               "ToolTip": "C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.cpp",
-=======
-              "ToolTip": "C:\\Users\\junho\\OneDrive\\\uBB38\uC11C\\Basic_Brain_Class-main\\\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.cpp",
->>>>>>> a9c575a3b894b0246bb179992190d64c925f5dfa
               "RelativeToolTip": "\uD14C\uC2A4\uD2B8\uC6A9\\\uD14C\uC2A4\uD2B8\uC6A9.cpp",
               "ViewState": "AgIAAFMGAAAAAAAAAADwv2gGAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -79,15 +84,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604.cpp",
-              "DocumentMoniker": "C:\\Users\\junho\\OneDrive\\\uBB38\uC11C\\Basic_Brain_Class-main\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604.cpp",
+              "DocumentMoniker": "C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604.cpp",
               "RelativeDocumentMoniker": "\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604.cpp",
-              "ToolTip": "C:\\Users\\junho\\OneDrive\\\uBB38\uC11C\\Basic_Brain_Class-main\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604.cpp",
+              "ToolTip": "C:\\Users\\OFFICE\\Desktop\\Basic_Brain_Class\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604.cpp",
               "RelativeToolTip": "\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604\\\uACF1\uC148\uD0C0\uC784\uC5B4\uD0DD\uAD6C\uD604.cpp",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAEwG8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAEwG8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-26T04:08:41.963Z"
+              "WhenOpened": "2025-06-26T04:08:41.963Z",
+              "EditorCaption": ""
             }
           ]
         }

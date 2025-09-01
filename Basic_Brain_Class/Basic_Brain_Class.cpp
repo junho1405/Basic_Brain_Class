@@ -7,7 +7,7 @@
 #include <deque>
 #include <Windows.h>
 #include <Vector>
-#include<string>
+#include <string>
 
 using namespace std;
 using namespace chrono;
@@ -19,8 +19,6 @@ public:
 	virtual void play() = 0;
 	virtual ~MiniGame() {}
 };
-
-
 //덧셈영역
 class Plus_Quiz
 {
@@ -1243,8 +1241,6 @@ public:
 			}
 		}
 	}
-
-
 };
 //기억력테스트
 
